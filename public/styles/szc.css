@@ -1,0 +1,405 @@
+@import url(public.css?v=20150302);
+
+/*base*/
+.m-r5{margin-right:5px;}
+.m-r7{margin-right:7px;}
+.m-r0{margin-right:0!important;}
+.m-l0{margin-left:0!important;}
+.b-t0{border-top:0!important;}
+.p-t20{padding-top:20px!important;}
+.p-l20{padding-left:20px;}
+.p-tb10{padding-top:10px;padding-bottom:10px;}
+.org{color:#FF974B;}
+
+.th_name .i-sj{vertical-align:-3px;vertical-align:1px\9;}
+
+/*side*/
+.s-tj{margin-top:10px;}
+.s-tj .pub_tab li{width:32.9%;}
+.s-tj .pub_tab li.last{width:33.1%;}
+.s-tj .r_content b{width:18px;height:18px;line-height:18px;text-align:center;color:#fff;background-position:0 -164px;}
+.s-tj .r_content b.blue{background-position:0 -145px;}
+.s-tj .r_content b.ba-org{background-position:left -183px;}
+.s-tj .r_content b.ba-pur{background-position:left -319px;}
+.s-tj .r_content i,.r_content s{height:7px;font-size:0;}
+.s-tj .r_content i{display:block;width:114px;background:#DCDCDE;position:relative;overflow:hidden;}
+.s-tj .r_content s{position:absolute;background:url(http://www.500cache.com/trade/images/public/s-bg.png) repeat-x left top;}
+.s-tj .r_content s.blue{background-position:0 -8px;}
+
+.s-zj{margin-top:10px;}
+.s-zj .r_content{padding-bottom:10px;}
+.s-zj-box{height:82px;padding-top:10px;overflow:hidden;}
+.s-zj-box dt{float:left;width:60px;text-align:center;}
+.s-zj-box dd{margin-left:75px;}
+
+.s-hot{margin-top:10px;}
+.s-hot .r_box_top{height:73px;padding:0;margin:0;background:url(http://www.500cache.com/trade/images/public/s-hot.png) no-repeat left top;}
+.s-hot .r_box_top h2{display:none;}
+.s-hot-l{padding-top:10px;overflow:hidden;zoom:1;}
+.s-hot-l li{float:left;width:49.9%;text-align:center;height:24px;}
+.s-hot-l li a{display:inline-block;padding-left:20px;height:16px;line-height:16px;overflow:hidden;}
+.s-hot-l li a.i-ol{background-position:0 -31px;}
+.s-hot-l li a.i-ct{background-position:0 3px;}
+.s-hot-l li a.i-ts{background-position:0 -47px;}
+.s-hot-l li a.i-bz{background-position:0 -13px;}
+
+.s-td{position:relative;zoom:1;}
+.s-td .s-td-in{background:#FCF8EC;border:1px solid #E2D8BB;padding:10px;}
+.s-td h2{font:bold 14px/24px simsun;border-bottom:1px solid #EAE0C2;zoom:1;}
+.ssc-height{height:auto;}
+.s-td h2.no{ border:none;}
+.s-td li{line-height:24px;padding-left:12px;background-position:-10px -133px;zoom:1;}
+.s-td s{position:absolute;top:0;width:3px;height:3px;font-size:0;overflow:hidden;}
+.s-td s.s-td-l{left:0;background-position:0 -147px;}
+.s-td s.s-td-r{right:0;background-position:-3px -147px;}
+.s-kj{padding:5px 0;border-bottom:1px solid #FFD297;zoom:1;}
+.s-kj dd{margin-top:5px;}
+/*普通投注*/
+#pttz.c-inner,#gltz.c-inner,#dlt.c-inner{padding:20px 3px 10px;}
+#pttz .c-b-blue,#gltz .c-b-blue,#dlt .c-b-blue{padding:0;}
+#pttz .c-b-blue .c-s-t,#gltz .c-b-blue .c-s-t{padding-left:10%;}
+#dlt .c-b-blue .c-s-t{padding-left:7px;}
+#dlt .c-b-blue .dlt b.c-t-l{background-position:40px -4px;}
+#dlt .gjlz-blue .c-s-t{padding-left:55px;}
+.c-red{float:left;width:452px;}
+.c-blue{margin-left:462px;_margin-left:459px;}
+.c-p-a{padding-top:10px;}
+.c-red .btn_gray_s,.c-red .btn_gray_s:hover{text-decoration:none;color:#f00;}
+.c-p-a *{vertical-align:middle;margin-right:5px;}
+
+/*单式投注*/
+.c-way{padding-left:100px;padding-top:1px;}
+.c-way .up_data{float: left;}
+.c-way li{margin-top:10px;}
+.c-way li.c-lr a.public_Dblue,.c-way li.c-lr a.public_gray{margin-right:10px;}
+.c-way li.c-fq{margin-top:50px;}
+.c-way li.c-dis{margin-top:20px;color:#999999;}
+.c-way li.c-dis li{margin-top:5px;}
+.c-way li.c-dis li.red{color:#FF0000;}
+.c-sm-t{width: 475px; height: 90px; font-size:12px; font-family:"宋体";padding-left:10px;border:1px solid #7E9DB9;color:#CCCCCC; line-height:18px; font-size:12px;overflow:hidden;overflow-y:auto;}
+.up_fd{float: left; margin-left:25px;}
+.up_help{clear: both; padding-top:1px;}
+
+.betList{padding:5px;}
+ul.betList{background-image:none;}
+.betList li{background:#fff url(http://www.500cache.com/trade/images/public/dian_h.gif) repeat-x bottom;padding:5px 10px;  word-wrap:break-word;word-break:break-all;}
+.betList .num{float:left;font:14px tahoma;  color:#F00;}
+.betList .ssq{width:400px;}
+.betList .del{float:right;}
+
+#dtsh .c-inner{padding-left:5px;padding-right:5px;}
+
+/*高级玩法*/
+.c-r-tj{padding:60px 0;background-position:center bottom;}
+.c-r-tj ol{width:546px;height:204px;padding:5px 2px;margin-left:auto;margin-right:auto;background-color:#F4F9FD;border:1px solid #B0D1F6;overflow:hidden;}
+.c-r-tj li{height:24px;padding:0 20px;padding-top:5px;padding-right:0;border-bottom:1px solid #E4E8EC;}
+.c-r-tj li *{vertical-align:middle;}
+.c-r-tj li input,.c-gjwf input{width:14px;height:14px;margin-right:2px;}
+.c-r-tj li label{margin-right:4px;}
+.c-r-tj li .c-l-tj{display:inline-block;width:60px;height:16px;_height:14px;_padding-top:2px;margin-right:0;color:#F6FBFF;background:#B1B4B7;}
+.c-r-tj li .c-l-tj input,.c-gjwf input{vertical-align:-2px;vertical-align:middle\9;}
+.c-l-jt{display:inline-block;width:0;height:0;font-size:0;line-height:0;border:4px solid #FAFAFA;border-left-color:#B1B4B7;vertical-align:middle;margin-right:10px;}
+.c-gjwf{height:14px;padding:8px 10px;background:#FCFCFC;border-bottom:1px solid #EFEFEF;position:relative;z-index:1;}
+.c-gjwf label{margin-right:10px;cursor:pointer;}
+.c-gjwf label.m-r60{margin-right:60px;}
+#gltz .c-gjwf .red,#gltz .c-gjwf .gray{position:absolute;top:6px;right:10px;}
+#gltz .c-r-ok{padding-top:10px;}
+#gltz .s-ok,#main .s-ok-sp{background-position:0 -124px;color:#fff;}
+#gltz .c-inner{border-top:0;}
+#gltz .s-ok:hover{color:#fff;text-decoration:none;}
+#gltz .s-ok{margin-right:20px;margin-left:20px;}
+#toggle{padding-left:10px;background-image:url(http://www.500cache.com/trade/images/public/u-d.gif);background-repeat:no-repeat;text-decoration:underline;color:#f00;}
+.tog-up{background-position:0 3px;}
+.tog-dw{background-position:0 -17px;}
+#gltz .c-h3-r,#dlt .c-h3-r{_right:-1px;}
+
+/*多期机选*/
+#dqjx .c-inner{padding:0;}
+
+/*大乐透*/
+#dlt .c-inner{border-top:0;}
+.c-dlt-red{width:496px;}
+.c-dlt-blue{margin-left:506px;_margin-left:503px;}
+.c-dlt-blue li{text-align:center;}
+#dlt .c-s-num b, #dlt .c-s-num i{margin-left:8px;}
+.dlt_tip{ color:#FF3300;height: 26px; line-height: 26px; padding-left: 12px;}
+
+/*生肖乐*/
+#dlt-sxl .c-s-t{padding-left:35%;}
+.c-s-sxl li{overflow:hidden;zoom:1;}
+.c-s-sxl li b,.c-s-sxl li i{float:left;margin-right:7px;width:43px;height:43px;background:url(http://www.500cache.com/trade/images/dlt/ball.png) no-repeat -2000em -2000em;}
+.c-s-sxl li i{text-align:center;background-position:0 -131px;}
+.c-s-sxl li b{text-indent:-2000em;}
+.c-s-sxl li b.sxl-01{background-position:0 0; cursor:pointer;}
+.c-s-sxl li b.sxl-02{background-position:-51px 0;cursor:pointer;}
+.c-s-sxl li b.sxl-03{background-position:-103px 0;cursor:pointer;}
+.c-s-sxl li b.sxl-04{background-position:-154px 0;cursor:pointer;}
+.c-s-sxl li b.sxl-05{background-position:-205px 0;cursor:pointer;}
+.c-s-sxl li b.sxl-06{background-position:-256px 0;cursor:pointer;}
+.c-s-sxl li b.sxl-07{background-position:-306px 0;cursor:pointer;}
+.c-s-sxl li b.sxl-08{background-position:-357px 0;cursor:pointer;}
+.c-s-sxl li b.sxl-09{background-position:-407px 0;cursor:pointer;}
+.c-s-sxl li b.sxl-10{background-position:-458px 0;cursor:pointer;}
+.c-s-sxl li b.sxl-11{background-position:-509px 0;cursor:pointer;}
+.c-s-sxl li b.sxl-12{background-position:-561px 0;cursor:pointer;}
+
+.c-s-sxl li b.sxl-01-a{background-position:0 -44px;}
+.c-s-sxl li b.sxl-02-a{background-position:-51px -44px;}
+.c-s-sxl li b.sxl-03-a{background-position:-103px -44px;}
+.c-s-sxl li b.sxl-04-a{background-position:-154px -44px;}
+.c-s-sxl li b.sxl-05-a{background-position:-205px -44px;}
+.c-s-sxl li b.sxl-06-a{background-position:-256px -44px;}
+.c-s-sxl li b.sxl-07-a{background-position:-306px -44px;}
+.c-s-sxl li b.sxl-08-a{background-position:-357px -44px;}
+.c-s-sxl li b.sxl-09-a{background-position:-407px -44px;}
+.c-s-sxl li b.sxl-10-a{background-position:-458px -44px;}
+.c-s-sxl li b.sxl-11-a{background-position:-509px -44px;}
+.c-s-sxl li b.sxl-12-a{background-position:-561px -44px;}
+
+.c-s-sxl li b.sxl-01-b{background-position:0 -88px;}
+.c-s-sxl li b.sxl-02-b{background-position:-51px -88px;}
+.c-s-sxl li b.sxl-03-b{background-position:-103px -88px;}
+.c-s-sxl li b.sxl-04-b{background-position:-154px -88px;}
+.c-s-sxl li b.sxl-05-b{background-position:-205px -88px;}
+.c-s-sxl li b.sxl-06-b{background-position:-256px -88px;}
+.c-s-sxl li b.sxl-07-b{background-position:-306px -88px;}
+.c-s-sxl li b.sxl-08-b{background-position:-357px -88px;}
+.c-s-sxl li b.sxl-09-b{background-position:-407px -88px;}
+.c-s-sxl li b.sxl-10-b{background-position:-458px -88px;}
+.c-s-sxl li b.sxl-11-b{background-position:-509px -88px;}
+.c-s-sxl li b.sxl-12-b{background-position:-561px -88px;}
+
+/*大乐透 胆拖投注*/
+#dlt-dttz .c-inner,#dlt-sxl .c-inner{padding:20px 2px 10px;}
+#dlt-dttz .c-select{padding-left:56px;}
+#dlt-dttz .c-s-num b,#dlt-dttz .c-s-num i{margin-left:6px;}
+.s-a-b-qq{right:20px;}
+.s-a-b-hq{right:140px;}
+
+/*3D*/
+.sd-tips{padding:5px 10px;background:#F3F9FF;}
+#sd .c-s-side{top:10px;}
+
+.sz-pl-a,.sz-pl-b,.sz-pl-c,.sz-pl-d,.sz-pl-e,.sz-pl-f,.sz-pl-g{margin-left:auto;margin-right:auto;}
+.sz-pl-a{width:575px;}
+.sz-pl-b{width:464px;}
+.sz-pl-c{width:478px;}
+.sz-pl-d{width:376px;}
+.sz-pl-e{width:442px;}
+.sz-pl-f{width:342px;}
+.sz-pl-g{width:420px;}
+.sd-xh{margin-top:10px;}
+.zj_table th,.zj_table td{text-align:left;font-weight:normal;line-height:27px;}
+.zj_table th{color:#999999;}
+.zj_table th.tr,.zj_table td.tr{text-align:right;}
+.zj_table th.tl,.zj_table td.tl{text-align:left;}
+.zj_table th.tc,.zj_table td.tc{text-align:center;}
+.zj_table td.add_b{cursor:pointer;}
+.s-tj .r_content{padding-bottom:10px;}
+.s-tj-3d .pub_tab li{width:33%;}
+.s-tj-3d .r_content i{width:90px;}
+
+/*11选5*/
+.b-top-info-fjl{font:bold italic 20px tahoma,arila;color:#FF734E;}
+.b-top-tips-notice{position:absolute;top:-4px;right:145px;width:394px;height:67px;background:url(http://www.500cache.com/trade/images/syxw/top-tips.png) no-repeat 0 0;overflow:hidden;}
+.b-top-tips-cur{float:left;width:100px;padding-left:16px;padding-top:17px;font-family:tahoma;}
+.b-top-tips-time{float:left;padding-left:16px;padding-top:10px;}
+.b-top-tips-time strong{font:bold 38px tahoma;color:#FF4E00;}
+.b-top-tips-time b{font-size:16px;}
+.b-top-tips-time .stop{color:#FF4E00; font-weight:bold; font-size:32px;}
+
+.r_box-dqyl{margin-top:10px;}
+.r_box-dqyl .pub_tab li{width:24.5%;}
+.r_box-dqyl .pub_tab li.last{width:25%;}
+.r_box-dqyl .zj_table td,.r_box-dqyl .zj_table th{text-align:center;}
+.r_box-dqyl .zj_table td.tl,.r_box-dqyl .zj_table th.tl{text-align:left;}
+.r_box-dqyl .zj_table td.tr,.r_box-dqyl .zj_table th.tr{text-align:right;}
+
+.r_box-tp10{margin-top:10px;}
+.r_box-tp10 li{width:24.5%;}
+.r_box-tp10 li.last{width:25%;}
+
+.r_box-help{margin-top:10px;}
+.buy-help{padding:10px 0;}
+.buy-help dt a{font-weight:bold;text-decoration:none;}
+.r-box-icon{display:inline-block;height:22px;width:22px;background:url(http://www.500cache.com/trade/images/syxw/letter_ico.png) no-repeat 0 0;vertical-align:middle;}
+.r-box-icon-num{background-position:0 -162px;}
+.r-box-icon-tb{background-position:0 -232px;}
+.buy-help-tb dd a{display:inline-block;width:72px;}
+
+.zh-op{height:22px;padding-top:8px;border:1px solid #B7D5F7;border-width:1px 0;background:#F3F9FF;}
+.zh-op .title{ float:left;width:110px; background-repeat:no-repeat; border:none; text-align:center;background:none;height:auto;}
+.zh-op label.current{font-weight:bold;}
+.zh-op span.sort{ padding:0 0 0 14px;}
+
+.zh-select{overflow:hidden;zoom:1;}
+.zh-select a{display:inline-block;width:28px;text-align:center;border:1px solid #CFCFCF;background:#F4F4F4;}
+.zh-select a.cur,.zh-select a:hover{border-color:#B5D4F7;border-color:#3C7EC8;background:#3C7EC8;text-decoration:none;color:#fff;}
+.zh-select .t_qh{width:110px; text-align:center; display:inline-block;}
+.zh-select a{display:inline-block;width:28px;text-align:center;border:1px solid #CFCFCF;background:#F4F4F4;}
+.zh-select a.cur,.zh-select a:hover{border-color:#B5D4F7;border-color:#3C7EC8;background:#3C7EC8;text-decoration:none;color:#fff;}
+.zh-select select{margin:0 2px; color:#000; *vertical-align:-1px;}
+.zh-select select option.current{color:#f00;}
+.bt-select{ padding:5px 0; position:relative;}
+.bt-select .bt_qh{float:left; line-height:26px;}
+.bt-select .bt_set{float:left;}
+.bt-select .bt_set p{padding:3px 0; height:20px; line-height:20px;}
+.bt-select .bt_set select{margin:0 2px;}
+.bt-select .bt_ys{position:absolute; right:0; bottom:10px;}
+#zh-list{border:1px solid #7F9DB9;overflow:hidden;}
+#zh-list .hd{height:26px;padding:4px 10px 0;background:#F3F9FF;}
+#zh-list .hd span{display:inline-block;}
+#zh-list .hd .zh-col-1{width:80px;}
+#zh-list .hd .zh-col-2{width:204px;}
+#zh-list .hd .zh-col-3{width:125px;}
+#zh-list .hd .zh-col-4{width:100px;}
+#zh-list .bd{height:157px;overflow-x:hidden; overflow-y:scroll;}
+#zh-list .zj_table td{border-bottom:0;line-height:26px;text-align:left;}
+#zh-list .zj_table td.xh{padding-left:10px;}
+
+#jjjs,#jjjs .c-inner{padding:0;}
+#jjjs .hd{height:24px;padding:6px 10px 0;border-bottom:1px solid #B0D1F6;border-top:3px solid #D5EAFF;}
+#jjjs .zj_table{width:100%;border-collapse:collapse;}
+#jjjs .zj_table td,#jjjs .zj_table th{line-height:30px;padding:0 3px;border:1px solid #E1E1E1;background:#F3F9FF;border-collapse:collapse;}
+#jjjs .zj_table th{text-align:center;}
+#jjjs .zj_table tr.nbt th,#jjjs .zj_table th.nbt{border-top-color:#fff;}
+#jjjs .zj_table th.nbr,#jjjs .zj_table td.nbr{border-right:0;}
+#jjjs .zj_table th.nbl,#jjjs .zj_table td.nbl{border-left:0;}
+#jjjs .zj_table tr.nbf td,#jjjs .zj_table td.nbf{border-bottom:0;}
+
+.r3-th{ border-bottom:1px solid #DDDFE7;height:28px}
+.r3-th span{display:inline-block;margin-left:20px;line-height:27px; color:#999999;}
+.c-r-ok-rx{position:relative;}
+.se-helper{position:absolute;left:80px;bottom:10px; line-height:normal;}
+.se-helper .icon_new { width:19px; height:7px; background:url(http://www.500cache.com/trade/images/public/icon_new.gif); overflow:hidden; cursor:pointer; position:absolute; margin-top:-2px;}
+
+/*tips*/
+.rx-tips-op{float:left;width:283px;padding-top:12px;border-right:1px solid #E0E2E1;background:#F5F5F5;}
+.rx-tips-op dl{padding-left:20px;}
+.rx-tips-op dt{font:bold 14px simsun;}
+.rx-tips-op dt i.gray{font:normal 12px simsun;}
+.rx-tips-op dd{margin-top:7px;}
+.rx-tips-op .in-dd dd,.rx-tips-op dd.in-dd{padding-left:17px;}
+.rx-tips-con{margin-left:283px;_margin-left:280px;}
+.tips-helper .hd{padding:10px;background:#F5F5F5;border-bottom:1px solid #E0E2E1;}
+.tips-helper .hd .wf{width:80px;text-align:right;}
+.tips-helper .hd .xz{margin-left:90px;}
+.tips-helper .hd label{display:inline-block;width:80px;}
+.tips-helper .bd .top{padding-left:10px;padding-top:15px;}
+.tips-helper .bd .top *{vertical-align:middle;}
+.tips-helper .bd .bot{padding:10px;}
+.tips-helper .c-r-bet{overflow:hidden;height:auto;}
+.tips-helper .c-r-bet ul{height:100px;overflow:hidden;overflow-y:scroll;}
+.tips-helper .c-r-bet .title{padding-left:20px;line-height:24px;background:#F3F9FF;}
+.wkqs{margin-left:190px;}
+.tips-helper .c-r-bet .qs{margin-right:150px;}
+.tb-a{width:100%;}
+.tb-a td,.tb-a th{line-height:14px;padding:8px 3px;text-align:center;vertical-align:middle;}
+.tb-a th{font-weight:normal;background:#F5F5F5;border-bottom:1px solid #E0E2E1;}
+.tb-a td.tl,.tb-a th.tl{text-align:left;}
+.tb-a td.tr,.tb-a th.tr{text-align:right;}
+.sbt-a,.sbt-a b{display:inline-block;background:url(http://www.500cache.com/trade/images/public/sbt.gif) no-repeat -200em -200em;}
+.sbt-a{padding-left:15px;background-position:0 0;cursor:pointer;}
+.sbt-a b{padding-right:15px;height:30px;background-position:right 0;font:bold 14px/30px simsun;color:#fff;}
+.sbt-a:hover{background-position:0 -30px;text-decoration:none;}
+.sbt-a:hover b{background-position:right -30px;color:#999;}
+/*22选5*/
+.ee-cst .c-s-t{padding-left:17%;}
+.t-more{float:right;font:normal 12px simsun;margin-top:5px;}
+
+/*七乐 七星彩*/
+.b-red-20,.b-blue-20,.b-org-20{display:inline-block;width:20px;height:20px;line-height:20px;text-align:center;background:url(http://www.500cache.com/trade/images/public/b-20.png) no-repeat 0 0;color:#fff;}
+.b-red-20{margin-right:7px;}
+.b-blue-20{background-position:0 -21px;}
+.b-org-20{background-position:0 -42px;margin-right:3px;}
+.zj_table .blue{font-family:tahoma;}
+.qc-cst .c-s-t,.qc-sl-nb .c-s-t{padding-left:35%;}
+.qc-sl-nb .c-s-side{top:10px;}
+.qc-jx{margin-top:10px;padding-right:30px;text-align:right;}
+.qc-jx *{vertical-align:middle;}
+.qlc-kj .b-red-20{margin-right:3px;}
+.s-kj dd a.r{margin-top:2px;}
+
+/*时时彩*/
+.b-top-info-ssc{height:45px;padding-top:12px;}
+.b-top-tips-ssc{right:100px;}
+.s-tj .c-wrap .r_content i{width:100%;}
+.s-tj .s-height{ height:165px; overflow:hidden;}
+
+.s-content{position:relative;zoom:1;}
+.s-content .c-wrap{padding:0;height:224px;}
+.s-content .c-wrap .an_title{padding:0;border-top:3px solid #D4EBFD;}
+.s-content .c-wrap .an_title li{width:49%;padding:0;text-align:center;}
+.s-content .pub_tab li{width:24.5%;}
+.s-content .pub_tab li.last{width:25%;}
+#n2 .pub_tab li{width:49.9%;}
+
+.zh-exp{width:602px;margin:10px auto;}
+.dx-mun{width:49.9%;}
+#sd .dx-mun .c-s-side{top:20px;}
+.dx-mun .c-s-num b,.dx-mun i{width:38px;}
+.dx-mun .c-s-num b{height:37px;background:url(http://www.500cache.com/trade/images/ssc/dxds.png) no-repeat 0 0;font:18px/38px simhei;}
+.dx-mun .c-s-num b.o-a{background-position:0 -38px;}
+.dx-mun .c-s-num b.o-b{background-position:0 -76px;}
+/*showTips*/
+.c-gjwf .toolTips{position:absolute;right:10px;top:8px;width:auto;}
+.c-gjwf .tipsDetail{width:280px;}
+/*代购 合买。。*/
+.buy_sort{background:#f6fbff; border:1px solid #B7D5F7; border-width:1px 0;height:35px; overflow:hidden;line-height: 35px;}
+.buy_sort span.title{float:left; text-align:center; width:90px;}
+.buy_sort span.sort{float:left;padding:0 0 0 14px; }
+.buy_sort span.sort input{height:14px\9;vertical-align:-1px;vertical-align:-3px\9;*vertical-align:1px; cursor:pointer;}
+.buy_sort span.add_info{float:right; height:16px;padding-right:16px; text-align:right;color:#999;background-position:right -64px;overflow:hidden;}
+.buy_sort label{cursor:pointer;}
+.buy_table tr.last_tr td{border-bottom:0;}
+.buy_table td{border-bottom:1px solid #e0e2e1;}
+/*.buy_table table td{border:none}*/
+.buy_table .td-pl{padding:0}
+.buy_table .td_content{padding-left:20px;}
+
+/*购彩剩余时间*/
+.last_time{ height:11px; padding:5px 4px 4px 4px;  background:#333; color:#22fa05;}
+
+/*定胆*/
+.c-r-ok.c-r-dd{padding-left:148px;}
+.ssc_zhu{background:url(http://www.500cache.com/trade/images/ssc/zhu.png) no-repeat; width:18px; height:14px; display:block; font-size:0; line-height:0; overflow:hidden; position:absolute; right:-7px; top:-2px;}
+
+/*大乐透加奖*/
+.s-td .dlt_add{background:#FCF8EC;border:1px solid #E2D8BB; border-bottom:0 none; padding:10px;}
+.s-td .dlt_add h2{border-bottom:0 none;}
+.add_days{background:url(http://www.500cache.com/trade/images/dlt/addm_day.png) no-repeat; width:190px; height:55px; margin:5px 0 10px; padding:7px 10px;}
+.add_days .days{width:58px; height:55px; position:relative; color:#ffffff; font:bold 50px/52px "\5fae\8f6f\96c5\9ed1", Tahoma, Arial; font:bold 50px/58px "\5fae\8f6f\96c5\9ed1", Tahoma, Arial\9; overflow:hidden; margin-right:8px; display:inline-block; text-align:center;}
+.add_days .days b{height:1px; background:#df6000; font-size:0; line-height:0; overflow:hidden; position:absolute;top:27px; display:inline-block; width:58px; left:0;}
+.s-td .dlt_add p{line-height:20px;}
+.s-td .dlt_add p em{color:#ff0000; font-weight:bold; font-family:Tahoma;}
+
+/*** 快乐十分优化 tangxl 2012.2.15 ***/
+.klsf_tab{ display:inline-block; width:92px; height:24px; background:url(http://www.500cache.com/trade/images/klsf/klsf_tab.png) no-repeat 0 -25px; text-align:center; line-height:23px; position:relative; top:-1px; _top:1px;}
+.klsf_tab:hover, .klsf_on{ background-position:0 0; text-decoration:none;}
+.klsf_on, .klsf_on:hover{ color:#333;}
+
+.gray_bg{ display:none; width:100%; height:2100px; position:absolute; left:0; top:0; opacity: 0.6; -moz-opacity:0.6; filter:alpha(opacity=60); background:#000; z-index:10001;}
+.intro_guide{ width:1000px; position:absolute; left:50%; top:0; margin-left:-500px; display:none; z-index:10003;}
+.intro_guide_in{ position:relative; width:1000px; height:2100px;}
+#guide_step1, #guide_step2, #guide_step3, #guide_step4{ position:absolute; display:none;}
+.g_close, .next_step, #g_again{ display:block; cursor:pointer; position:absolute;}
+
+/* 方案详情表格样式 */
+ .rcjc_table{overflow-y:auto; overflow-x:hidden;}
+ .rcjc_table table.tablelay td{padding:0;}
+
+ /* 成功加入号码篮弹出层新增tips */
+.lay_tips {height:32px; background:url(http://www.500cache.com/trade/images/public/tips_ico.png) no-repeat 16px -216px; padding-top:12px; width:110%; margin-left:-5%;}
+.lay_tips p {height:32px; line-height:32px; background:url(http://www.500cache.com/trade/images/public/tips_ico.png) no-repeat 16px -170px #fff1c8; padding-left:44px; color:#C60;}
+
+/*11选5投注区优化*/
+.c-r-l .btn_gray_s{position:absolute;right:0;top:0;}
+.c-r-bet {height:150px;}
+.c-r-l {width:485px;}
+.c-result-t-1{ background:url(http://www.500cache.com/trade/images/public/c-result.png) no-repeat scroll 3px 10px transparent;  height:23px; padding-top:10px;}
+.tips_xh{position:absolute; color:#F00; top:6px; left:178px;}
+.c-result-t .h-150{ height:150px; margin-top:10px; }
+.c-result-t .pad-30{ padding-top:25px;}
+.top-43{top:38px; }
+.c-inner .c-result-t{background:none;}
+.c-inner .m-t10{ margin-top:15px; }

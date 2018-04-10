@@ -1,0 +1,210 @@
+Searching 4 files for "cur_period_purchased_lotteries.length"
+
+/Users/lwd/work/etc/ide/KindLottery/contracts/LoterryBase.sol:
+   64      function getPurchasedNum() public view returns(uint32)
+   65      {
+   66:         return uint32(cur_period_purchased_lotteries.length);
+   67      }
+   68      struct FinishedLottery {
+
+/Users/lwd/work/etc/ide/KindLottery/contracts/LoterryCenter.sol:
+    5  contract LoterryCenter is LoterrySend{
+    6      function getRaisesNum() public view returns(uint32){
+    7:         return uint32(cur_period_purchased_lotteries.length);
+    8      }
+    9      function getRaisesIdsByOwner() constant returns(uint[] memory ids) {
+   10          uint32 num = 0;
+   11:         for (uint32 i = 0; i < cur_period_purchased_lotteries.length; i++) {
+   12              if (cur_period_purchased_lotteries[i].user_address==msg.sender)
+   13              {
+   ..
+   17          ids = new uint[](num);
+   18          uint32 idx = 0;
+   19:         for (uint32 j = 0; j < cur_period_purchased_lotteries.length; j++) {
+   20              if (cur_period_purchased_lotteries[j].user_address==msg.sender)
+   21              {
+
+/Users/lwd/work/etc/ide/KindLottery/contracts/LoterrySend.sol:
+   14          cur_period_num++;
+   15          delete cur_period_purchased_lotteries;
+   16:         cur_period_purchased_lotteries.length = 0;
+   17      }
+   18  
+   ..
+   53                      second_num: getRandom(2)%10,
+   54                      third_num: getRandom(1)%10,
+   55:                     first_array: new FinishedLottery[](cur_period_purchased_lotteries.length),
+   56:                     second_array: new FinishedLottery[](cur_period_purchased_lotteries.length),
+   57:                     third_array: new FinishedLottery[](cur_period_purchased_lotteries.length),
+   58:                     fourth_array: new FinishedLottery[](cur_period_purchased_lotteries.length),
+   59                      first_arr_count: 0,
+   60                      second_arr_count: 0,
+   ..
+   69                  });
+   70          
+   71:         for (uint32 i=0;i<cur_period_purchased_lotteries.length;i++)
+   72          {
+   73              PurchasedLottery storage sold_lottery = cur_period_purchased_lotteries[i];
+   ..
+  210          /*
+  211          uint32 sum = 0;
+  212:         for (uint32 i=0;i<cur_period_purchased_lotteries.length;i++)
+  213          {
+  214              PurchasedLottery storage sold_lottery = cur_period_purchased_lotteries[i];
+
+11 matches across 3 files
+
+
+Searching 4 files for "cur_period_purchased_lotteries.length"
+
+/Users/lwd/work/etc/ide/KindLottery/contracts/LoterrySend.sol:
+   14          cur_period_num++;
+   15          delete cur_period_purchased_lotteries;
+   16:         cur_period_purchased_lotteries.length = 0;
+   17      }
+   18  
+   ..
+   53                      second_num: getRandom(2)%10,
+   54                      third_num: getRandom(1)%10,
+   55:                     first_array: new FinishedLottery[](cur_period_purchased_lotteries.length),
+   56:                     second_array: new FinishedLottery[](cur_period_purchased_lotteries.length),
+   57:                     third_array: new FinishedLottery[](cur_period_purchased_lotteries.length),
+   58:                     fourth_array: new FinishedLottery[](cur_period_purchased_lotteries.length),
+   59                      first_arr_count: 0,
+   60                      second_arr_count: 0,
+   ..
+   69                  });
+   70          
+   71:         for (uint32 i=0;i<cur_period_purchased_lotteries.length;i++)
+   72          {
+   73              PurchasedLottery storage sold_lottery = cur_period_purchased_lotteries[i];
+   ..
+  210          /*
+  211          uint32 sum = 0;
+  212:         for (uint32 i=0;i<cur_period_purchased_lotteries.length;i++)
+  213          {
+  214              PurchasedLottery storage sold_lottery = cur_period_purchased_lotteries[i];
+
+7 matches in 1 file
+
+
+Searching 4 files for "cur_period_purchased_lotteries.length"
+
+/Users/lwd/work/etc/ide/KindLottery/contracts/LoterrySend.sol:
+   69                  });
+   70          
+   71:         for (uint32 i=0;i<cur_period_purchased_lotteries.length;i++)
+   72          {
+   73              PurchasedLottery storage sold_lottery = cur_period_purchased_lotteries[i];
+   ..
+  210          /*
+  211          uint32 sum = 0;
+  212:         for (uint32 i=0;i<cur_period_purchased_lotteries.length;i++)
+  213          {
+  214              PurchasedLottery storage sold_lottery = cur_period_purchased_lotteries[i];
+
+2 matches in 1 file
+
+
+Searching 4 files for "cur_period_purchased_lotteries.length"
+
+/Users/lwd/work/etc/ide/KindLottery/contracts/LoterrySend.sol:
+  210          /*
+  211          uint32 sum = 0;
+  212:         for (uint32 i=0;i<cur_period_purchased_lotteries.length;i++)
+  213          {
+  214              PurchasedLottery storage sold_lottery = cur_period_purchased_lotteries[i];
+
+1 match in 1 file
+
+
+Searching 4 files for "cur_period_purchased_lotteries.length"
+
+0 matches across 0 files
+
+
+Searching 4 files for "cur_period_purchased_lotteries"
+
+/Users/lwd/work/etc/ide/KindLottery/contracts/LoterryBase.sol:
+   60      }
+   61      //The lottery that has been sold in this period.
+   62:     PurchasedLottery[] cur_period_purchased_lotteries;
+   63:     uint32 public cur_period_purchased_lotteries_length = 0;
+   64      function getPurchasedNum() public view returns(uint32)
+   65      {
+   66:         return uint32(cur_period_purchased_lotteries_length);
+   67      }
+   68      struct FinishedLottery {
+
+/Users/lwd/work/etc/ide/KindLottery/contracts/LoterryBuy.sol:
+   60              status:0
+   61          });
+   62:         if (cur_period_purchased_lotteries_length>=cur_period_purchased_lotteries.length)
+   63          {
+   64:             cur_period_purchased_lotteries.length++;
+   65          }
+   66:         cur_period_purchased_lotteries_length++;
+   67:         cur_period_purchased_lotteries[cur_period_purchased_lotteries_length-1] = lottery;
+   68:         return uint32(cur_period_purchased_lotteries_length-1);
+   69      }
+   70      function buyLotteryByStr(string numbers,uint32 multiple,uint32 count) public whenNotPaused isCanPurchase payable returns(uint32){
+
+/Users/lwd/work/etc/ide/KindLottery/contracts/LoterryCenter.sol:
+    5  contract LoterryCenter is LoterrySend{
+    6      function getRaisesNum() public view returns(uint32){
+    7:         return uint32(cur_period_purchased_lotteries_length);
+    8      }
+    9      function getRaisesIdsByOwner() constant returns(uint[] memory ids) {
+   10          uint32 num = 0;
+   11:         for (uint32 i = 0; i < cur_period_purchased_lotteries_length; i++) {
+   12:             if (cur_period_purchased_lotteries[i].user_address==msg.sender)
+   13              {
+   14                  num++;
+   ..
+   17          ids = new uint[](num);
+   18          uint32 idx = 0;
+   19:         for (uint32 j = 0; j < cur_period_purchased_lotteries_length; j++) {
+   20:             if (cur_period_purchased_lotteries[j].user_address==msg.sender)
+   21              {
+   22                  ids[idx++] = j;
+   ..
+   25      }
+   26  	function getRaises(uint32 idx) public view returns(uint32,address,uint8,uint8){
+   27:         PurchasedLottery storage item = cur_period_purchased_lotteries[idx];
+   28          return(item.lottery_code,item.user_address,item.status,item.multiple);
+   29  	}
+
+/Users/lwd/work/etc/ide/KindLottery/contracts/LoterrySend.sol:
+   13          cur_period_status = 1;
+   14          cur_period_num++;
+   15:         //delete cur_period_purchased_lotteries;
+   16:         cur_period_purchased_lotteries_length = 0;
+   17      }
+   18  
+   ..
+   53                      second_num: getRandom(2)%10,
+   54                      third_num: getRandom(1)%10,
+   55:                     first_array: new FinishedLottery[](cur_period_purchased_lotteries_length),
+   56:                     second_array: new FinishedLottery[](cur_period_purchased_lotteries_length),
+   57:                     third_array: new FinishedLottery[](cur_period_purchased_lotteries_length),
+   58:                     fourth_array: new FinishedLottery[](cur_period_purchased_lotteries_length),
+   59                      first_arr_count: 0,
+   60                      second_arr_count: 0,
+   ..
+   69                  });
+   70          
+   71:         for (uint32 i=0;i<cur_period_purchased_lotteries_length;i++)
+   72          {
+   73:             PurchasedLottery storage sold_lottery = cur_period_purchased_lotteries[i];
+   74              if (sold_lottery.status==0)
+   75              {
+   ..
+  210          /*
+  211          uint32 sum = 0;
+  212:         for (uint32 i=0;i<cur_period_purchased_lotteries_length;i++)
+  213          {
+  214:             PurchasedLottery storage sold_lottery = cur_period_purchased_lotteries[i];
+  215              if (sold_lottery.status==0)
+  216              {
+
+26 matches across 4 files

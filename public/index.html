@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Open source decentralized Ethereum blockchain based lottery">
+    <meta name="keywords" content="Ethereum,Blockchain,Lottery,Decentralized,Open Source">
+    <meta name="author" content="lotthereum.github.io">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>ETH Lottery</title>
+
+    <link rel="icon" sizes="192x192" href="/images/icons-192x192.png">
+    <link rel="shortcut icon" href="/images/icons-72x72.png">
+    <link rel="apple-touch-icon" href="/images/icons-72x72.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/icons-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/icons-144x144.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/icons-180x180.png">
+
+    <link href="http://www.500cache.com/trade/css/szc.css?v=2015030201" type="text/css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  </head>
+  <body>
+        <div class="b-top-inner" style="width:1000px;margin-left:auto;margin-right:auto;padding-left:0px;">
+            <div class="b-top-info">
+                <div id="logo">
+                    <a href="#" title="ETH Lottery" id="link89"><img src="/images/555.png" style="margin-top:-10px;" alt="ETH Lottery" /></a>
+                </div>
+            </div>
+            <dl class="b-top-nav">
+              <dt>
+                <a href="#" title="" class="on" id="link132">Arrange Three</a>
+              </dt>
+              
+              <dd id="playTabsDd" style="position:relative;margin-left:0px;text-align:right;">
+                
+                
+                Starting Time: <span id="endtimeSpan" style="color:#b1b1b1">2018-01-17 19:55:00</span>
+                End Time: <span id="endtimeSpan" style="color:#b1b1b1">2018-01-17 19:55:00</span>
+                    <span id="countDownSpan">Status:&nbsp;<span class="red" id="cur_period_status_lable">Normal</span>&nbsp;&nbsp;</span>
+             </dd>
+             <strong>
+              <span id="expect_tab" style="line-height:30px;height:30px;margin-top:-30px;margin-left:10px;display:block;">Current Period </span>
+              </strong>
+            </dl>
+           
+        </div>
+
+        <div id="bd">
+            <div id="main">
+                <div class="content c-wrap" style="margin-top:10px;border-top:1px solid #B0D0F6;height:670px;">
+                    <div class="sd-tips" id="sd_tips" style="height:130px;">
+                        <p class="gray" id="zhxpt_tips" style="font-size:15px"><strong>ETH lottery play Description:</strong>
+                        </p>
+                        <p class="gray" id="zhxpt_tips">Ethereum contract deployment Address: <span class="red">0xc0e9860ff6ea810f1dbddb199a7402066fa32f02</span> Code is opened, and can not be modified, so it is fair.
+                        </p>
+                        <p class="gray" id="zhxpt_tips"><strong>Winning and awarding rules:</strong></p>
+                        <p class="gray" id="zhxpt_tips"><span class="red">1st Prize: In order, all three numbers are the same , with all winners equal 30% of the prize pool.</span></p>
+                        <p class="gray" id="zhxpt_tips"><span class="red">2sd Prize: In order, two numbers are the same in any position, with all winners equal 20% of the prize pool.</span></p>
+                        <p class="gray" id="zhxpt_tips"><span class="red">3td Prize: 2sd Prize: In order, a number is the same in any position, with all winners equal 50% of the prize pool.</span></p>
+                    </div>
+                    <div class="c-inner b-t0" id="pttz" style="display: block;">
+                        <div class="c-select sz-pl-a">
+                            <div class="c-s-side">
+                                <strong class="c-s-hide" style="">number 1</strong>
+                            </div>
+                            <ul class="c-s-num">
+                                <li>&nbsp;</li>
+                                <li><b class="">0</b><b class="">1</b><b class="">2</b><b class="">3</b><b class="">4</b><b class="">5</b><b class="">6</b><b class="">7</b><b class="">8</b><b class="">9</b>
+                                </li>
+                               
+                            </ul>
+                        </div>
+                        <div class="c-select sz-pl-a m-t">
+                            <div class="c-s-side">
+                                <strong class="c-s-hide" style="">number 2</strong>
+                            </div>
+                            <ul class="c-s-num">
+                                <li>&nbsp;</li>
+                                <li><b class="">0</b><b class="">1</b><b class="">2</b><b class="">3</b><b class="">4</b><b>5</b><b class="">6</b><b class="">7</b><b class="">8</b><b class="">9</b>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="c-select sz-pl-a m-t">
+                            <div class="c-s-side">
+                                <strong class="c-s-hide" style="">number 3</strong>
+                            </div>
+                            <ul class="c-s-num">
+                                <li>&nbsp;</li>
+                                <li><b class="">0</b><b class="">1</b><b class="">2</b><b class="">3</b><b class="">4</b><b class="">5</b><b class="">6</b><b class="">7</b><b class="">8</b><b class="">9</b>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="c-result m-t20">
+                            <div class="c-r-ok c-r-ok-rx tr" style="padding-left:0px;margin-left:180px;text-align:left;">
+                                <a href="javascript:void 0" title="" class="s-ok" id="zhx_pt_put" style="background:url(/images/select_btns.png) no-repeat left top;background-position-y:-120px;margin-left:45px;"></a>
+                                <font style="color:#999;display:inline-block;margin-top:12px;margin-left:35px">Random selection:</font>
+                                <select class="c-r-z m-t15" id="zhx_pt_jx_opts">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="5">5</option>
+                                    <option value="10">10</option>
+                                    <option value="20">20</option>
+                                    <option value="50">50</option>
+                                </select>
+                                <a href="javascript:void 0" title="" class="public_Lblue m-t15" id="zhx_pt_jx" style="line-height:19px;"><b> &nbsp;add&nbsp; </b></a>
+                                
+                            </div>
+                        </div>
+
+                        <div class="c-r-bet m-t20" style="margin-left:45px;">
+                            <ul class="betList" id="zhx_pt_list">
+                                
+                            </ul>
+                        </div>
+                        <div class="c-result m-t20" style="text-align:right;padding-right:190px;margin-top:5px;">
+                            <a href="javascript:void 0" title="" class="public_Lblue m-t15" id="clear_all_select_btn" style="line-height:18px;margin-top:-3px;"><b>clear</b></a>
+                            <font style="color:#999;">&nbsp;&nbsp;Betting multiple:</font>
+                            <select class="c-r-z m-t15" id="multiple_select_value">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="5">5</option>
+                                <option value="10">10</option>
+                                <option value="20">20</option>
+                                <option value="50">50</option>
+                                <option value="100">100</option>
+                            </select>
+                            <font id="all_money_count" style="color:#999;margin-left:10px;margin-right:5px;">Amount: 0 eth</font>
+                            <a href="javascript:void 0" title="" class="public_Lblue m-t15" id="begin_buy_btn" style="line-height:18px;margin-top:-3px;"><b> &nbsp;buy&nbsp; </b></a>
+                        </div>
+                    </div>
+                        
+
+                        <!--<div id="dropdown-nav">
+                            <li><strong>account</strong></li> 
+                        </div>-->
+                        
+                </div>
+                <div class="side" id="pls_pt" style="display:">
+                    <!--投注提点-->
+                    <div class="s-td">
+                        <div class="s-td-in">
+                            <h2><font id="cur_period_num_txt">Current Period</font></h2>
+                             <dl class="s-kj">
+                                <dt><strong>Bonus Pool:</strong></dt>
+                                <dd class="clearfix">
+                                <span class="l" id="jiangjincinum" style="color:red;">
+                                0 eth </span>
+                                </dd>
+                            </dl>
+                            <strong stype="margin-top:20px;">have been bought numbers in this period:</strong>
+                            <div class="c-r-bet m-t20" style="width:240px;margin-top:4px;">
+                                <ul class="m-t5" id="tidian">
+
+                                </ul>
+                            </div>
+                            <s class="s-td-l"></s>
+                            <s class="s-td-r"></s>
+                        </div>
+                    </div>
+                    <div class="s-tj s-tj-3d" id="lr_tj">
+                        <div class="r_box">
+                            <div class="r_box_top">
+                                <div class="r_title3">
+                                    <h2>Previous Period</h2></span>
+                                </div>
+                            </div>
+                            <div class="pub_tab" id="cool_hot" style="padding-top:3px">
+                                 <dd class="clearfix">
+                                    <span class="l">
+                                        <b id="Winning_Numbers">&nbsp;&nbsp;Winning Numbers:</b>
+                                        <b class="b-blue-20" id="last_period_number1">1</b>
+                                        <b class="b-blue-20" id="last_period_number2">6</b>
+                                        <b class="b-blue-20" id="last_period_number3">7</b>            
+                                    </span>
+                                </dd>
+                                
+                                
+                            </div>
+                            
+                            <div class="r_content">
+                                <p class="r-title-a"><strong class="gray">Previous period Reward information</strong></p>
+                                <div id="r1" style="display: block;">
+                                    <table width="100%" cellspacing="0" cellpadding="0" border="0" class="zj_table">
+                                        <colgroup>
+                                            <col width="25%">
+                                            <col width="23%">
+                                            <col width="52%">
+                                        </colgroup>
+                                      <tbody>
+                                          <tr>
+                                            <td><strong>1st Prize</strong></td>
+                                           
+                                            <td>
+                                                Count:<span id="first_reward_lottery_num"></span>
+                                            </td>
+                                            <td>Amount:<span id="first_reward_eth_num"></span> eth</td>
+                                          </tr>
+                                          <tr>
+                                            <td><strong>2sd Prize</strong></td>
+                                             <td>
+                                                Count:<span id="second_reward_lottery_num"></span>
+                                            </td>
+                                            <td>Amount:<span id="second_reward_eth_num"></span> eth</td>
+                                          </tr>
+                                          <tr>
+                                            <td><strong>3td Prize</strong></td>
+                                             <td>
+                                                Count:<span id="third_reward_lottery_num"></span>
+                                            </td>
+                                            <td>Amount:<span id="third_reward_eth_num"></span> eth</td>
+                                          </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <dl class="s-kj">
+                                </dl>
+                               
+
+                                <strong stype="margin-top:20px;">My winning information:</strong>
+                                <div class="c-r-bet m-t20" style="width:240px;margin-top:4px;">
+                                     <ul class="m-t5" id="tidian_rewards">
+                                           
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        
+
+
+
+
+
+        <div class="tradeKeyword_wrap"><div class="tradeKeyword">
+        <div class="tradeKeyword_news">
+            Reward amount is the sum of 90% of this current period's amount and the previous amount was not distributed.
+          Comprehensive winning rate of 30%. The first prize will receive 270 times the return. If the lottery sales are too small in the current period, the lottery will be delayed for one or two hours.
+
+        </div>
+    </div>
+</div>
+<br/><br/>
+
+
+
+
+  <!-- build:js scripts/main.js -->
+  <script src="scripts/lotthereum.js"></script>
+  <!-- endbuild -->
+
+  <script type="text/javascript">
+    window.addEventListener('load', function() {
+        // Checking if Web3 has been injected by the browser (Mist/MetaMask)
+        if (typeof web3 !== 'undefined') {
+            // Use Mist/MetaMask's provider
+            window.web3 = new Web3(web3.currentProvider);
+            // $('#using-mist-metamask').css('display', 'block');
+        } else {
+            window.location.href = "configer.html";
+            console.log('No web3? You should consider trying MetaMask!');
+            return;
+            // fallback - use your fallback strategy (local node / hosted node + in-dapp id mgmt / fail)
+            // window.web3 = new Web3(new Web3.providers.HttpProvider('http://localhost:8546'));
+            // $('#using-localhost').css('display', 'block');
+        }
+        // window.web3 = new Web3(new Web3.providers.HttpProvider('http://localhost:8546'));
+
+        // Net check
+        console.log('begin init web 3.');
+        web3.version.getNetwork((err, netId) => {
+            console.log('This is an unknown network.',err,netId)
+            if (netId!="1")
+            {
+                alert("Please set MetaMask as Ethereum main network!");
+            }
+            window.contract_address = '0xc0e9860ff6ea810f1dbddb199a7402066fa32f02';
+            switch (netId) {
+                case '1':
+                    console.log('This is mainnet')
+                    // 0x5e6ed16d845a46b9f863a256e7a3194f2a9e8b5c 1st mainnet
+                    // 0xc9a8b0bc9bb24846f6fdc832ae7ef8269ac26e23 2nd mainnet
+                    // 0x3c563651318b6b2cf555207a1e611bb577fff446 3rd mainnet
+                    // 0xd142a0af9a527ff8d63fefda2da0907048947cde 4th mainnet
+                    // 0xd64ad4eefaacb96a0865687cfeef4c4a2cfbfef2 5th mainnet
+                    // 0x8eca2366e8ad2051a14af338620f6dd101c231e1 6th mainnet
+                    // 0x5a2a454675c1b659caa58b5675ee759b992b84b1 7th mainnet
+                    window.contract_address = '0xc0e9860ff6ea810f1dbddb199a7402066fa32f02'  // 8th mainnet
+                    break
+                case '2':
+                    console.log('This is the deprecated Morden test network.')
+                    break
+                case '28889':
+                    console.log('This is the ropsten test network.')
+                    // 0x84b0d29f2c4abd8c1c8de5e10954bf0dcc01d83c 1st ropsten
+                    // 0x9e97ec0421b8d3c2d818d02b8dbe59c7f90affc6 2nd ropsten
+                    // 0xc9a8b0bc9bb24846f6fdc832ae7ef8269ac26e23 3rd ropsten
+                    // 0x668143a1fc6c3a83a85c2fd20f3e51dac06fd3f3 4th ropsten
+                    // 0xd5fa1a05b370d9ef4ccd80521fbca2e3b377a5aa 5th ropsten
+                    // 0x084544552eaba63b6bb6436b42ac848707cab2fa 6th ropsten
+                    window.contract_address = '0xc0e9860ff6ea810f1dbddb199a7402066fa32f02'  // 7th ropsten
+                    break
+                default:
+                    console.log('This is an unknown network.')
+            }
+
+            console.log('Contract address: ' + window.contract_address)
+            g = new LJRaise();
+            // var tArray = [];  
+            // for(var k=0;k<3;k++){    //一维长度为i,i为变量，可以根据实际情况改变
+            //     tArray[k]=[];
+            //     // tArray.push([]);
+            // }
+            var first_select_num = -1
+            var second_select_num = -1 
+            var third_select_num = -1
+            var tArray = [[],[],[]];
+            function setSelectBtnStatus(i,j)
+            {
+                // console.log(i,j);
+                for (var m=0;m<10;m++)
+                {
+                    
+                    $(tArray[i][m]).attr('class', "");
+                    // $(tArray[i][m]).html('1');
+                }
+                if (j>=10)
+                {
+                    return;
+                }
+                $(tArray[i][j]).attr('class', "o-b");
+                if (i==0){
+                    first_select_num = j;
+                }
+                if (i==1)
+                {
+                    second_select_num = j;
+                }
+                if (i==2)
+                {
+                    third_select_num = j;
+                }
+                // console.log(first_select_num,second_select_num,third_select_num)
+            }
+            var idx = 0;
+            $('#pttz ul.c-s-num').each(function (ul, m){
+                $('li>b',ul).each(
+                        function(b,n)
+                        {
+                            var i = Math.floor(idx/10);
+                            var j = idx%10;
+                            console.log(i,j);
+                            tArray[i][j]=this;
+                            $(this).click(function(i,j) {
+                                return function()
+                                {
+                                    setSelectBtnStatus(i,j);
+                                };
+                            }(i,j));
+                            idx = idx+1;
+                        }
+                    );
+            });
+            var pay_money_eth = 0;
+            var buy_all_numbers_str = "";
+
+            function setAllMoney()
+            {
+                
+                var all_txt = "";
+                var num = 0;
+                $("#zhx_pt_list span.num").each(function(a,b)
+                {  
+                    all_txt = all_txt+$(this).html()+",";
+                    num++;
+                });
+                all_txt=all_txt.substr(0,all_txt.length-1)
+                buy_all_numbers_str = all_txt;
+                var m = $("#multiple_select_value").val();
+                pay_money_eth = m*num*0.01;
+                $("#all_money_count").html("Amount:" + pay_money_eth +" eth");
+                console.log(all_txt);
+            }
+            function additem(num_str)
+            {
+                select_item_cell_num = select_item_cell_num+1;
+                $("#zhx_pt_list").append(
+                        `<li style="cursor: pointer;" id="select_item_cell_`+select_item_cell_num+`">
+                            <span class="num" style="color:#333">`+num_str+`</span> 
+                            <a href="javascript:void 0" class="del" id="select_item_cell_a`+select_item_cell_num+`">delete</a>
+                        </li>`
+                    )
+                $("#select_item_cell_a"+select_item_cell_num).click(
+                    function(n)
+                    {
+                        return function()
+                        {
+                            $("#select_item_cell_"+n).remove()
+                            setAllMoney()
+                        }
+                    }(select_item_cell_num));
+                setAllMoney();
+            }
+            var select_item_cell_num = 0;
+            $("#zhx_pt_put").click(
+                    function()
+                    {
+                        if (first_select_num<0 || second_select_num<0 || third_select_num<0)
+                        {
+                            alert("Please select three numbers from the top");
+                            return;
+                        }
+                        var num_str = first_select_num +"|" + second_select_num + "|" + third_select_num;
+                        additem(num_str);
+                        first_select_num = -1;
+                        second_select_num = -1;
+                        third_select_num = -1;
+                        setSelectBtnStatus(0,10);
+                        setSelectBtnStatus(1,10);
+                        setSelectBtnStatus(2,10);
+                    });
+            $("#zhx_pt_jx_opts").val(2);
+            $("#zhx_pt_jx").click(function()
+            {
+                var num = $("#zhx_pt_jx_opts").val();
+                for (var i=0;i<num;i++)
+                {
+                    var num_str = Math.floor(Math.random()*10)+"|"+Math.floor(Math.random()*10)+"|"+Math.floor(Math.random()*10);
+                    additem(num_str);
+                }
+            });
+            $("#multiple_select_value").val(1);
+            $("#multiple_select_value").change(function(){
+                setAllMoney();
+            });
+
+            $("#begin_buy_btn").click(function()
+            {
+                if (pay_money_eth<=0)
+                {
+                    alert("Please add a lottery ticket!");
+                    return;
+                }
+                g.onBuy(pay_money_eth,$("#multiple_select_value").val()*1,buy_all_numbers_str);
+                $("#zhx_pt_list").html("");
+                setAllMoney();
+            })
+            $("#clear_all_select_btn").click(function()
+            {
+                // alert("1234");
+                $("#zhx_pt_list").html("");
+                setAllMoney();
+            })
+        });
+    })
+  </script>
+
+  </body>
+</html>
